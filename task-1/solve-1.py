@@ -1,10 +1,7 @@
-# TODO: Вставить сюда код задачи 1.
-count = int(input)
-total_sum = 0
-
-for _ in range(сount):
-    num = int(input())
-    if num % 10 == 4: 
-        total_sum = num
-
-print(total_sum)
+n = int(input())
+s = 0
+for i in range(n):
+    x = int(input())
+    if x % 10 == 3:
+        s += x
+print(s)
